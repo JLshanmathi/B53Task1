@@ -1,0 +1,105 @@
+2.Write a blog about objects and its internal representation in Javascript.
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+.header {
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+
+}
+
+.footer {
+  padding: 10px;
+  text-align: right;
+  background: #ddd;
+  margin-top: 10px;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h6>objects in Javascript</h6>
+</div>
+
+    <div class="card">
+      <h2>objects:-</h2>
+      <p>Objects can be considered as the Unordered collection of data stored in the form of <b> Key : Value Pairs</b>.These keys can be functions or variables.</p>
+       variables can also contain many values.Objects are variables too. But objects can contain many values.
+
+</p>
+      <p>Eg:- let person = {firstName:"Leo", lastName:"Dass", age:50, eyeColor:"Brown"};</p>
+
+    </div>
+    <div class="card">
+      <h2>objects in Javascript:-</h2>
+      <p>Basically,JavaScript is an <b>object-based language.</b> Everything is an object in JavaScript.A JavaScript object is a collection of named values.And it is a template based not class based. Here, we don't create class to get the object. But, we direct create objects.</p>
+      <h2>Creating objects in Javascript</h2>
+      <p>There are 3 ways to create object in JS,</p>
+      <p><b>1) JavaScript Object by object literal</b>
+</p>
+<p>This is the easiest way to create a JavaScript Object.Using an object literal, you both define and create an object in one statement.And the syntax is,</p>
+      <p><b>Eg:-object={property1:value1,property2:value2...propertyN:valueN}</b></p><br>
+    <p><b>2) By creating instance of Object</b></p>
+<p>Here, new keyword is used to create object.And the syntax is,</p>
+      <p><b>var objectname=new Object();</b></p><br>
+   <p><b>3) By using an Object constructor</b></p>
+
+      <p>Here, we need to create function with arguments. Each argument value can be assigned in the current object by using this keyword.The <b>this</b> keyword refers to the current object.</p>
+      <pre> Eg:-
+function emp(id,name,salary){  
+this.id=id;  
+this.name=name;  
+this.salary=salary;  
+}  
+e=new emp(103,"vijay",30000); 
+console.log(e);
+</pre>
+
+</div>
+  </div>
+  <div class="footer">
+  <h2>written by</h2>
+    <p style="font-family:cursive">shanmathi J.L</p>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+1. write a blog on differnce between HTTP1.1 and HTTP 2.
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+.header {
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+
+}
+
+.footer {
+  padding: 10px;
+  text-align: right;
+  background: white;
+  margin-top: 20px;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h6>Difference between HTTP 1.1 and HTTP 2</h6>
+</div>
+
+    <div class="card">
+      <h2>HTTP:-</h2>
+      <p>The HTTP protocol can be used to transfer the data in the form of <b>plain text, hypertext, audio, video,</b> and so on.It is a <b>connectionless protocol.</b> HTTP client initiates a request and waits for a response from the server.
+ And also a <b>media independent</b> as data can be sent as long as both the client and server know how to handle the data content. HTTP is a <b>stateless protocol</b> as both the client and server know each other only during the current request.
+</p>
+    </div>
+    <div class="card">
+      <h2>Differences between HTTP1.1 and HTTP 2:-</h2>
+      <p>As the technology developed and the Internet evolved, HTTP 1.1 soon became outdated. This was the reason why HTTP 2 was developed.</p>
+      <p>HTTP 1.1 compresses data by itself,while HTTP 2 uses HPACK to compress the data.</p>
+      <p>HTTP 1.1 uses plain text to encode and transmit the data,while HTTP 2 uses series of binary code.</p>
+      <p>HTTP 1.1 uses single request and response over single connection,while 2 uses multiple request and response.</p>
+      <p>1.1 uses cannot handle buffer overflow,whilw 2 handle overflow.</p>
+      <p>Most modern web browsers support HTTP 1.1 and  HTTP 2 including Google Chrome, Mozilla Firefox, Apple Safari, Microsoft Edge, and Opera.</p>
+
+</div>
+  </div>
+  
+
+<div class="footer">
+  <h2>written by</h2>
+  <p style="font-family:cursive">shanmathi J.L</p>
+</div>
+
+</body>
+</html>
