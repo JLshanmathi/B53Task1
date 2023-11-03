@@ -1,1 +1,1 @@
-This  task has been done using HTML,CSS and Bootstrap
+This  task has been done using HTML,CSS with Responsive.
